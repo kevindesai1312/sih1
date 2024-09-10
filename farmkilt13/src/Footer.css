@@ -13,7 +13,7 @@
 }
 .footer-logo p{
     color: #383838;
-    font-size: 46px;
+    font-size: 36px;
     font-weight: 700;
 }
 .footer-links{
@@ -27,6 +27,7 @@
     cursor: pointer;
 }
 .footer-social-icon{
+    flex-direction: column;
     display: flex;
     gap: 20px;
 }
@@ -54,4 +55,13 @@
     border-radius: 10px;
     height: 3px;
     background: #c7c7c7;
+}
+.footer-icons-container{
+    flex-direction: row;
+    width: 26px;
+    height: 26px;
+}
+.footer-icons-container img{
+    width: 25px;
+    height: 25px;
 }

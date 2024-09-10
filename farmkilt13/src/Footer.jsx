@@ -21,7 +21,7 @@ const Footer = () => {
         </ul>
         <div className='footer-social-icon'>
             <div className='footer-icons-container'>
-                <img src={instgram_icons} alt="" />
+                <a href=''><img src={instgram_icons} alt="" /></a>
             </div>
             <div className='footer-icons-container'>
                 <img src={pintester_icon} alt="" />
@@ -29,12 +29,11 @@ const Footer = () => {
             <div className='footer-icons-container'>
                 <img src={whatsapp_icon} alt="" />
             </div>
-            <br/>
             <div className='footer-copyright'>
                 <hr/>
                 <p>Copyright @ 2023 - All right Reserved</p>
             </div>
-        </div>
+        </div> 
     </div>
   )
 }
