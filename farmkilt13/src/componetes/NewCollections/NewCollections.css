@@ -1,33 +1,28 @@
-.popular{
+.newcollections{
     display: flex;
     flex-direction: column;
     align-items: center ;
     gap: 10px;
-    height: 100vh;
-    width: 100%;
+    height: 70vh;
 
 }
-.popular h1{
+.newcollections h1{
     color: #171717;
-    padding-top: 20px;
     font-size: 50px;
     font-weight: 600;
 }
-.popular hr{
+.newcollections hr{
     width: 200;
     height: 6px;
     border-radius: 10px;
     background: #252525;
 }
-.popular-item{
+.collections{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr;
     margin-top: 50px;
-    display: flex;
     gap: 30px;
-}
+    border: 2px solid black;
+    padding: 5px;
 
-.popular marquee img{
-    width: 30%;
-    height: 30%;
-    border-radius: 0px;
-    gap: 20px;
 }
