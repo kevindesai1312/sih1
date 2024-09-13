@@ -3,7 +3,7 @@ import './hero.css'
 import banners from '../componetes/assist/banner.jpg'
 import hand_icon from '../componetes/assist/select.png'
 import arrow_icon from '../componetes/assist/right-arrow.png'
-import hero_image from '../componetes/assist/fresh.jpg'
+import hero_image from '../componetes/assist/banner-carousel-1.png'
 
 const Hero = () => {
   return (

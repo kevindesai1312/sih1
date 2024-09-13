@@ -8,7 +8,7 @@ import b from '../assist/banner-2.png'
 const Popular = () => {
   return (
     <div className='popular'>
-      <marquee loop='10' scrollamount="20"> <img src={b} id='op'></img> </marquee>
+      <marquee loop='10' scrollamount="20"> <img src={b} id='op'></img>  </marquee>
        <h1>POPULAR IN VEGETABLES</h1>
        <hr/>
        <div className='popular-item'>
